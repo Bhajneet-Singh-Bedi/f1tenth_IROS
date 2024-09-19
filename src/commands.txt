@@ -1,0 +1,4 @@
+ros2 launch nav2_bringup navigation_launch.py params_file:=src/f1tenth_mapping/config/custom_nav2_params.yaml
+ros2 launch slam_toolbox online_async_launch.py params_file:=src/f1tenth_mapping/config/custom_slam_params.yaml
+ros2 run nav2_map_server map_saver_cli -f src/f1tenth_mapping/map/first_map
+ros2 run tf2_tools view_frames.py

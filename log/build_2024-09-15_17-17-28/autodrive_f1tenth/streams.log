@@ -1,0 +1,19 @@
+[2.112s] Invoking command in '/ros2_ws/build/autodrive_f1tenth': PYTHONPATH=/ros2_ws/build/autodrive_f1tenth/prefix_override:/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/autodrive_f1tenth/build --no-deps install_data
+[2.830s] running develop
+[3.218s] running egg_info
+[3.218s] writing autodrive_f1tenth.egg-info/PKG-INFO
+[3.219s] writing dependency_links to autodrive_f1tenth.egg-info/dependency_links.txt
+[3.219s] writing entry points to autodrive_f1tenth.egg-info/entry_points.txt
+[3.220s] writing requirements to autodrive_f1tenth.egg-info/requires.txt
+[3.220s] writing top-level names to autodrive_f1tenth.egg-info/top_level.txt
+[3.338s] reading manifest file 'autodrive_f1tenth.egg-info/SOURCES.txt'
+[3.347s] writing manifest file 'autodrive_f1tenth.egg-info/SOURCES.txt'
+[3.467s] running build_ext
+[3.472s] Creating /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive-f1tenth.egg-link (link to .)
+[3.476s] Installing autodrive_bridge script to /ros2_ws/install/autodrive_f1tenth/lib/autodrive_f1tenth
+[3.476s] Installing teleop_keyboard script to /ros2_ws/install/autodrive_f1tenth/lib/autodrive_f1tenth
+[3.478s] 
+[3.478s] Installed /ros2_ws/build/autodrive_f1tenth
+[3.478s] running install_data
+[3.479s] error: can't copy 'launch/occupancy_grid.launch.py': doesn't exist or not a regular file
+[3.555s] Invoked command in '/ros2_ws/build/autodrive_f1tenth' returned '1': PYTHONPATH=/ros2_ws/build/autodrive_f1tenth/prefix_override:/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/autodrive_f1tenth/build --no-deps install_data

@@ -1,0 +1,28 @@
+[0.632s] Invoking command in '/home/bhajneet/sim_racing/ros2_ws/src/autodrive_f1tenth': PYTHONPATH=/home/bhajneet/sim_racing/ros2_ws/build/autodrive_f1tenth/prefix_override:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autodrive_f1tenth build --build-base /home/bhajneet/sim_racing/ros2_ws/build/autodrive_f1tenth/build install --record /home/bhajneet/sim_racing/ros2_ws/build/autodrive_f1tenth/install.log --install-scripts $base/lib/autodrive_f1tenth --single-version-externally-managed
+[0.827s] running egg_info
+[0.828s] writing ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/PKG-INFO
+[0.829s] writing dependency_links to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/dependency_links.txt
+[0.829s] writing entry points to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/entry_points.txt
+[0.829s] writing requirements to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/requires.txt
+[0.830s] writing top-level names to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/top_level.txt
+[0.867s] reading manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'
+[0.868s] writing manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'
+[0.868s] running build
+[0.868s] running build_py
+[0.868s] copying autodrive_f1tenth/autodrive_bridge_1.py -> /home/bhajneet/sim_racing/ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth
+[0.868s] copying autodrive_f1tenth/config_1.py -> /home/bhajneet/sim_racing/ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth
+[0.869s] running install
+[0.869s] running install_lib
+[0.870s] copying /home/bhajneet/sim_racing/ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/autodrive_bridge_1.py -> /home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth
+[0.871s] copying /home/bhajneet/sim_racing/ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/config_1.py -> /home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth
+[0.871s] byte-compiling /home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth/autodrive_bridge_1.py to autodrive_bridge_1.cpython-38.pyc
+[0.875s] byte-compiling /home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth/config_1.py to config_1.cpython-38.pyc
+[0.875s] running install_data
+[0.876s] running install_egg_info
+[0.878s] removing '/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth-0.1.0-py3.8.egg-info' (and everything under it)
+[0.878s] Copying ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info to /home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth-0.1.0-py3.8.egg-info
+[0.879s] running install_scripts
+[0.894s] Installing autodrive_bridge_1 script to /home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth/lib/autodrive_f1tenth
+[0.894s] Installing teleop_keyboard script to /home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth/lib/autodrive_f1tenth
+[0.894s] writing list of installed files to '/home/bhajneet/sim_racing/ros2_ws/build/autodrive_f1tenth/install.log'
+[0.915s] Invoked command in '/home/bhajneet/sim_racing/ros2_ws/src/autodrive_f1tenth' returned '0': PYTHONPATH=/home/bhajneet/sim_racing/ros2_ws/build/autodrive_f1tenth/prefix_override:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autodrive_f1tenth build --build-base /home/bhajneet/sim_racing/ros2_ws/build/autodrive_f1tenth/build install --record /home/bhajneet/sim_racing/ros2_ws/build/autodrive_f1tenth/install.log --install-scripts $base/lib/autodrive_f1tenth --single-version-externally-managed

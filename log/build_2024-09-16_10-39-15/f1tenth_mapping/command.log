@@ -1,0 +1,2 @@
+Invoking command in '/ros2_ws/build/f1tenth_mapping': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ros2_ws/src/f1tenth_mapping -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/f1tenth_mapping
+Invoked command in '/ros2_ws/build/f1tenth_mapping' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ros2_ws/src/f1tenth_mapping -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/f1tenth_mapping

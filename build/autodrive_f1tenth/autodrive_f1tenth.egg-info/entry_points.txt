@@ -1,0 +1,4 @@
+[console_scripts]
+autodrive_bridge_1 = autodrive_f1tenth.autodrive_bridge_1:main
+teleop_keyboard = autodrive_f1tenth.teleop_keyboard:main
+

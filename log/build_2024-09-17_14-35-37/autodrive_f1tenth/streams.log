@@ -1,0 +1,22 @@
+[1.680s] Invoking command in '/ros2_ws/src/autodrive_f1tenth': PYTHONPATH=/ros2_ws/build/autodrive_f1tenth/prefix_override:/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autodrive_f1tenth build --build-base /ros2_ws/build/autodrive_f1tenth/build install --record /ros2_ws/build/autodrive_f1tenth/install.log --install-scripts $base/lib/autodrive_f1tenth --single-version-externally-managed
+[2.228s] running egg_info
+[2.229s] writing ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/PKG-INFO
+[2.230s] writing dependency_links to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/dependency_links.txt
+[2.230s] writing entry points to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/entry_points.txt
+[2.230s] writing requirements to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/requires.txt
+[2.230s] writing top-level names to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/top_level.txt
+[2.325s] reading manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'
+[2.328s] writing manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'
+[2.329s] running build
+[2.329s] running build_py
+[2.330s] running install
+[2.333s] running install_lib
+[2.339s] running install_data
+[2.341s] running install_egg_info
+[2.347s] removing '/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth-0.1.0-py3.8.egg-info' (and everything under it)
+[2.349s] Copying ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info to /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth-0.1.0-py3.8.egg-info
+[2.353s] running install_scripts
+[2.403s] Installing autodrive_bridge_1 script to /ros2_ws/install/autodrive_f1tenth/lib/autodrive_f1tenth
+[2.404s] Installing teleop_keyboard script to /ros2_ws/install/autodrive_f1tenth/lib/autodrive_f1tenth
+[2.405s] writing list of installed files to '/ros2_ws/build/autodrive_f1tenth/install.log'
+[2.462s] Invoked command in '/ros2_ws/src/autodrive_f1tenth' returned '0': PYTHONPATH=/ros2_ws/build/autodrive_f1tenth/prefix_override:/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autodrive_f1tenth build --build-base /ros2_ws/build/autodrive_f1tenth/build install --record /ros2_ws/build/autodrive_f1tenth/install.log --install-scripts $base/lib/autodrive_f1tenth --single-version-externally-managed

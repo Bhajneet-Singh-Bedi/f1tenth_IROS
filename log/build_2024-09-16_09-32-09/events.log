@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000404] (-) JobUnselected: {'identifier': 'f1tenth_mapping'}
+[0.001921] (autodrive_f1tenth) JobQueued: {'identifier': 'autodrive_f1tenth', 'dependencies': OrderedDict()}
+[0.003100] (autodrive_f1tenth) JobStarted: {'identifier': 'autodrive_f1tenth'}
+[0.099668] (-) TimerEvent: {}
+[0.200643] (-) TimerEvent: {}
+[0.301252] (-) TimerEvent: {}
+[0.402374] (-) TimerEvent: {}
+[0.503034] (-) TimerEvent: {}
+[0.603806] (-) TimerEvent: {}
+[0.705149] (-) TimerEvent: {}
+[0.807070] (-) TimerEvent: {}
+[0.908067] (-) TimerEvent: {}
+[1.008781] (-) TimerEvent: {}
+[1.109626] (-) TimerEvent: {}
+[1.210279] (-) TimerEvent: {}
+[1.310750] (-) TimerEvent: {}
+[1.411191] (-) TimerEvent: {}
+[1.511681] (-) TimerEvent: {}
+[1.612092] (-) TimerEvent: {}
+[1.712527] (-) TimerEvent: {}
+[1.812960] (-) TimerEvent: {}
+[1.834751] (autodrive_f1tenth) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/autodrive_f1tenth', 'build', '--build-base', '/ros2_ws/build/autodrive_f1tenth/build', 'install', '--record', '/ros2_ws/build/autodrive_f1tenth/install.log', '--install-scripts', '$base/lib/autodrive_f1tenth', '--single-version-externally-managed'], 'cwd': '/ros2_ws/src/autodrive_f1tenth', 'env': {'HOSTNAME': 'bhajneet-VivoBook', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/bin/helpers/browser.sh', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.93.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-310c888f-9d44-40e8-b821-213507060b74.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'COLCON_PREFIX_PATH': '/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-6644c9ca-a662-4199-b4de-717ae8b1800a.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/vscode/vscode-server/bin/linux-x64/4849ca9bdf9666755eb463db297b69e5385090e3/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-6644c9ca-a662-4199-b4de-717ae8b1800a.sock","/tmp/.X11-unix/X1","/home/ubuntu/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-7d578379eb.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-6644c9ca-a662-4199-b4de-717ae8b1800a.sock', 'AMENT_PREFIX_PATH': '/ros2_ws/install/f1tenth_mapping:/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X1', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ros2_ws/build/autodrive_f1tenth', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/autodrive_f1tenth/prefix_override:/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages:/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ros2_ws/install/f1tenth_mapping'}, 'shell': False}
+[1.913108] (-) TimerEvent: {}
+[2.013878] (-) TimerEvent: {}
+[2.114465] (-) TimerEvent: {}
+[2.214908] (-) TimerEvent: {}
+[2.315670] (-) TimerEvent: {}
+[2.416050] (-) TimerEvent: {}
+[2.434198] (autodrive_f1tenth) StdoutLine: {'line': b'running egg_info\n'}
+[2.436436] (autodrive_f1tenth) StdoutLine: {'line': b'creating ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info\n'}
+[2.436900] (autodrive_f1tenth) StdoutLine: {'line': b'writing ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/PKG-INFO\n'}
+[2.438365] (autodrive_f1tenth) StdoutLine: {'line': b'writing dependency_links to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/dependency_links.txt\n'}
+[2.439159] (autodrive_f1tenth) StdoutLine: {'line': b'writing entry points to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/entry_points.txt\n'}
+[2.440146] (autodrive_f1tenth) StdoutLine: {'line': b'writing requirements to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/requires.txt\n'}
+[2.440934] (autodrive_f1tenth) StdoutLine: {'line': b'writing top-level names to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/top_level.txt\n'}
+[2.455388] (autodrive_f1tenth) StdoutLine: {'line': b"writing manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'\n"}
+[2.516262] (-) TimerEvent: {}
+[2.544924] (autodrive_f1tenth) StdoutLine: {'line': b"reading manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'\n"}
+[2.547839] (autodrive_f1tenth) StdoutLine: {'line': b"writing manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'\n"}
+[2.548636] (autodrive_f1tenth) StdoutLine: {'line': b'running build\n'}
+[2.549036] (autodrive_f1tenth) StdoutLine: {'line': b'running build_py\n'}
+[2.550220] (autodrive_f1tenth) StdoutLine: {'line': b'creating /ros2_ws/build/autodrive_f1tenth/build\n'}
+[2.550855] (autodrive_f1tenth) StdoutLine: {'line': b'creating /ros2_ws/build/autodrive_f1tenth/build/lib\n'}
+[2.551334] (autodrive_f1tenth) StdoutLine: {'line': b'creating /ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth\n'}
+[2.551597] (autodrive_f1tenth) StdoutLine: {'line': b'copying autodrive_f1tenth/autodrive_bridge copy.py -> /ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth\n'}
+[2.551934] (autodrive_f1tenth) StdoutLine: {'line': b'copying autodrive_f1tenth/autodrive_bridge.py -> /ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth\n'}
+[2.552343] (autodrive_f1tenth) StdoutLine: {'line': b'copying autodrive_f1tenth/config copy.py -> /ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth\n'}
+[2.552769] (autodrive_f1tenth) StdoutLine: {'line': b'copying autodrive_f1tenth/config.py -> /ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth\n'}
+[2.553009] (autodrive_f1tenth) StdoutLine: {'line': b'copying autodrive_f1tenth/__init__.py -> /ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth\n'}
+[2.554498] (autodrive_f1tenth) StdoutLine: {'line': b'copying autodrive_f1tenth/teleop_keyboard.py -> /ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth\n'}
+[2.555176] (autodrive_f1tenth) StdoutLine: {'line': b'running install\n'}
+[2.557283] (autodrive_f1tenth) StdoutLine: {'line': b'running install_lib\n'}
+[2.560058] (autodrive_f1tenth) StdoutLine: {'line': b'creating /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth\n'}
+[2.560563] (autodrive_f1tenth) StdoutLine: {'line': b'copying /ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/autodrive_bridge copy.py -> /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth\n'}
+[2.560903] (autodrive_f1tenth) StdoutLine: {'line': b'copying /ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/autodrive_bridge.py -> /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth\n'}
+[2.562343] (autodrive_f1tenth) StdoutLine: {'line': b'copying /ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/config copy.py -> /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth\n'}
+[2.562871] (autodrive_f1tenth) StdoutLine: {'line': b'copying /ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/config.py -> /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth\n'}
+[2.563519] (autodrive_f1tenth) StdoutLine: {'line': b'copying /ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/__init__.py -> /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth\n'}
+[2.563813] (autodrive_f1tenth) StdoutLine: {'line': b'copying /ros2_ws/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/teleop_keyboard.py -> /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth\n'}
+[2.564256] (autodrive_f1tenth) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth/autodrive_bridge copy.py to autodrive_bridge copy.cpython-38.pyc\n'}
+[2.571393] (autodrive_f1tenth) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth/autodrive_bridge.py to autodrive_bridge.cpython-38.pyc\n'}
+[2.577274] (autodrive_f1tenth) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth/config copy.py to config copy.cpython-38.pyc\n'}
+[2.579409] (autodrive_f1tenth) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth/config.py to config.cpython-38.pyc\n'}
+[2.580528] (autodrive_f1tenth) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth/__init__.py to __init__.cpython-38.pyc\n'}
+[2.580976] (autodrive_f1tenth) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth/teleop_keyboard.py to teleop_keyboard.cpython-38.pyc\n'}
+[2.582466] (autodrive_f1tenth) StdoutLine: {'line': b'running install_data\n'}
+[2.584584] (autodrive_f1tenth) StdoutLine: {'line': b'creating /ros2_ws/install/autodrive_f1tenth/share/ament_index\n'}
+[2.585229] (autodrive_f1tenth) StdoutLine: {'line': b'creating /ros2_ws/install/autodrive_f1tenth/share/ament_index/resource_index\n'}
+[2.585979] (autodrive_f1tenth) StdoutLine: {'line': b'creating /ros2_ws/install/autodrive_f1tenth/share/ament_index/resource_index/packages\n'}
+[2.586678] (autodrive_f1tenth) StdoutLine: {'line': b'copying resource/autodrive_f1tenth -> /ros2_ws/install/autodrive_f1tenth/share/ament_index/resource_index/packages\n'}
+[2.587106] (autodrive_f1tenth) StdoutLine: {'line': b'copying package.xml -> /ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth\n'}
+[2.587318] (autodrive_f1tenth) StdoutLine: {'line': b'creating /ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/launch\n'}
+[2.587475] (autodrive_f1tenth) StdoutLine: {'line': b'copying launch/simulator_bringup_headless.launch.py -> /ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/launch\n'}
+[2.587597] (autodrive_f1tenth) StdoutLine: {'line': b'copying launch/simulator_bringup_rviz.launch.py -> /ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/launch\n'}
+[2.587723] (autodrive_f1tenth) StdoutLine: {'line': b'creating /ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/rviz\n'}
+[2.587923] (autodrive_f1tenth) StdoutLine: {'line': b'copying rviz/simulator.rviz -> /ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/rviz\n'}
+[2.588121] (autodrive_f1tenth) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.592453] (autodrive_f1tenth) StdoutLine: {'line': b'Copying ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info to /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth-0.1.0-py3.8.egg-info\n'}
+[2.594138] (autodrive_f1tenth) StdoutLine: {'line': b'running install_scripts\n'}
+[2.616406] (-) TimerEvent: {}
+[2.643127] (autodrive_f1tenth) StdoutLine: {'line': b'Installing autodrive_bridge script to /ros2_ws/install/autodrive_f1tenth/lib/autodrive_f1tenth\n'}
+[2.643941] (autodrive_f1tenth) StdoutLine: {'line': b'Installing teleop_keyboard script to /ros2_ws/install/autodrive_f1tenth/lib/autodrive_f1tenth\n'}
+[2.645266] (autodrive_f1tenth) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/autodrive_f1tenth/install.log'\n"}
+[2.698758] (autodrive_f1tenth) CommandEnded: {'returncode': 0}
+[2.716593] (-) TimerEvent: {}
+[2.760813] (autodrive_f1tenth) JobEnded: {'identifier': 'autodrive_f1tenth', 'rc': 0}
+[2.762395] (-) EventReactorShutdown: {}

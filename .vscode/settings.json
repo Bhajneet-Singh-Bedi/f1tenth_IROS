@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "remote.autoForwardPortsFallback": 0
+}

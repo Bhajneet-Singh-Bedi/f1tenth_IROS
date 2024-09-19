@@ -1,0 +1,19 @@
+[1.882s] Invoking command in '/ros2_ws/build/autodrive_f1tenth': PYTHONPATH=/ros2_ws/build/autodrive_f1tenth/prefix_override:/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/autodrive_f1tenth/build --no-deps install_data
+[2.518s] running develop
+[2.899s] running egg_info
+[2.900s] writing autodrive_f1tenth.egg-info/PKG-INFO
+[2.901s] writing dependency_links to autodrive_f1tenth.egg-info/dependency_links.txt
+[2.901s] writing entry points to autodrive_f1tenth.egg-info/entry_points.txt
+[2.901s] writing requirements to autodrive_f1tenth.egg-info/requires.txt
+[2.901s] writing top-level names to autodrive_f1tenth.egg-info/top_level.txt
+[3.000s] reading manifest file 'autodrive_f1tenth.egg-info/SOURCES.txt'
+[3.002s] writing manifest file 'autodrive_f1tenth.egg-info/SOURCES.txt'
+[3.108s] running build_ext
+[3.109s] Creating /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/site.py
+[3.113s] Creating /ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive-f1tenth.egg-link (link to .)
+[3.116s] Installing autodrive_bridge script to /ros2_ws/install/autodrive_f1tenth/lib/autodrive_f1tenth
+[3.116s] Installing teleop_keyboard script to /ros2_ws/install/autodrive_f1tenth/lib/autodrive_f1tenth
+[3.117s] 
+[3.118s] Installed /ros2_ws/build/autodrive_f1tenth
+[3.119s] running install_data
+[3.205s] Invoked command in '/ros2_ws/build/autodrive_f1tenth' returned '0': PYTHONPATH=/ros2_ws/build/autodrive_f1tenth/prefix_override:/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/autodrive_f1tenth/build --no-deps install_data

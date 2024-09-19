@@ -1,0 +1,6 @@
+Invoking command in '/ros2_ws/build/f1tenth_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake /ros2_ws/src/f1tenth_mapping -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/f1tenth_mapping
+Invoked command in '/ros2_ws/build/f1tenth_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake /ros2_ws/src/f1tenth_mapping -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/f1tenth_mapping
+Invoking command in '/ros2_ws/build/f1tenth_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --build /ros2_ws/build/f1tenth_mapping -- -j8 -l8
+Invoked command in '/ros2_ws/build/f1tenth_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --build /ros2_ws/build/f1tenth_mapping -- -j8 -l8
+Invoking command in '/ros2_ws/build/f1tenth_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --install /ros2_ws/build/f1tenth_mapping
+Invoked command in '/ros2_ws/build/f1tenth_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --install /ros2_ws/build/f1tenth_mapping

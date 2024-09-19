@@ -1,0 +1,139 @@
+[1.062s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.062s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71bb0d2fb0a0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71bb0d2fb0a0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71bb0d2fb700>)
+[1.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.129s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/ros2_ws'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extensions ['ignore', 'ignore_ament_install']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extension 'ignore'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extension 'ignore_ament_install'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extensions ['colcon_pkg']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extension 'colcon_pkg'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extensions ['colcon_meta']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extension 'colcon_meta'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extensions ['ros']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extension 'ros'
+[1.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autodrive_f1tenth' with type 'ros.ament_python' and name 'autodrive_f1tenth'
+[1.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.243s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'cmake_args' from command line to 'None'
+[1.243s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'cmake_target' from command line to 'None'
+[1.243s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.243s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'cmake_clean_cache' from command line to 'False'
+[1.243s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'cmake_clean_first' from command line to 'False'
+[1.243s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'cmake_force_configure' from command line to 'False'
+[1.244s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'ament_cmake_args' from command line to 'None'
+[1.244s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'catkin_cmake_args' from command line to 'None'
+[1.244s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.244s] DEBUG:colcon.colcon_core.verb:Building package 'autodrive_f1tenth' with the following arguments: {'ament_cmake_args': None, 'build_base': '/ros2_ws/build/autodrive_f1tenth', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/ros2_ws/install/autodrive_f1tenth', 'merge_install': False, 'path': '/ros2_ws/src/autodrive_f1tenth', 'symlink_install': True, 'test_result_base': None}
+[1.245s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.258s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.259s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/ros2_ws/src/autodrive_f1tenth' with build type 'ament_python'
+[1.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('autodrive_f1tenth', 'ament_prefix_path')
+[1.278s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/hook/ament_prefix_path.ps1'
+[1.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/hook/ament_prefix_path.dsv'
+[1.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/hook/ament_prefix_path.sh'
+[1.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.937s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/ros2_ws/src/autodrive_f1tenth'
+[1.941s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.941s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.038s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /ros2_ws/install/autodrive_f1tenth/share/ament_index/resource_index/packages/autodrive_f1tenth
+[3.038s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/package.xml
+[3.038s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/launch/occupancy_grid.launch.py
+[3.038s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/launch/simulator_bringup_headless.launch.py
+[3.038s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/launch/carto.launch.py
+[3.038s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/launch/simulator_bringup_rviz.launch.py
+[3.039s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/rviz/simulator.rviz
+[3.039s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/config/f1tenth_2d.lua
+[3.039s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /ros2_ws/install/autodrive_f1tenth/lib/autodrive_f1tenth/autodrive_bridge
+[3.039s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /ros2_ws/install/autodrive_f1tenth/lib/autodrive_f1tenth/publish_odom
+[3.039s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /ros2_ws/install/autodrive_f1tenth/lib/autodrive_f1tenth/teleop_keyboard
+[3.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/ros2_ws/build/autodrive_f1tenth': PYTHONPATH=/ros2_ws/build/autodrive_f1tenth/prefix_override:/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/autodrive_f1tenth/build --no-deps install_data
+[4.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('autodrive_f1tenth', 'pythonpath_develop')
+[4.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/build/autodrive_f1tenth/share/autodrive_f1tenth/hook/pythonpath_develop.ps1'
+[4.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/ros2_ws/build/autodrive_f1tenth' returned '0': PYTHONPATH=/ros2_ws/build/autodrive_f1tenth/prefix_override:/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ros2_ws/build/autodrive_f1tenth/build --no-deps install_data
+[4.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/build/autodrive_f1tenth/share/autodrive_f1tenth/hook/pythonpath_develop.dsv'
+[4.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/build/autodrive_f1tenth/share/autodrive_f1tenth/hook/pythonpath_develop.sh'
+[4.283s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/autodrive_f1tenth' for CMake module files
+[4.285s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/autodrive_f1tenth' for CMake config files
+[4.288s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/autodrive_f1tenth/lib'
+[4.289s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/autodrive_f1tenth/bin'
+[4.289s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/autodrive_f1tenth/lib/pkgconfig/autodrive_f1tenth.pc'
+[4.290s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages'
+[4.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('autodrive_f1tenth', 'pythonpath')
+[4.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/hook/pythonpath.ps1'
+[4.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/hook/pythonpath.dsv'
+[4.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/hook/pythonpath.sh'
+[4.296s] Level 1:colcon.colcon_core.environment:checking '/ros2_ws/install/autodrive_f1tenth/bin'
+[4.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autodrive_f1tenth)
+[4.299s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/package.ps1'
+[4.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/package.dsv'
+[4.303s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/package.sh'
+[4.305s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/package.bash'
+[4.307s] INFO:colcon.colcon_core.shell:Creating package script '/ros2_ws/install/autodrive_f1tenth/share/autodrive_f1tenth/package.zsh'
+[4.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/ros2_ws/install/autodrive_f1tenth/share/colcon-core/packages/autodrive_f1tenth)
+[4.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.310s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.321s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.321s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.325s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[4.326s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.331s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2_ws/install/local_setup.ps1'
+[4.335s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ros2_ws/install/_local_setup_util_ps1.py'
+[4.339s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2_ws/install/setup.ps1'
+[4.344s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2_ws/install/local_setup.sh'
+[4.347s] INFO:colcon.colcon_core.shell:Creating prefix util module '/ros2_ws/install/_local_setup_util_sh.py'
+[4.349s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2_ws/install/setup.sh'
+[4.354s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2_ws/install/local_setup.bash'
+[4.355s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2_ws/install/setup.bash'
+[4.359s] INFO:colcon.colcon_core.shell:Creating prefix script '/ros2_ws/install/local_setup.zsh'
+[4.361s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/ros2_ws/install/setup.zsh'

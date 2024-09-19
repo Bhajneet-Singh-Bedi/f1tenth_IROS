@@ -1,0 +1,29 @@
+[0.747s] Invoking command in '/ros2_ws/build/f1tenth_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --build /ros2_ws/build/f1tenth_mapping -- -j8 -l8
+[0.882s] Invoked command in '/ros2_ws/build/f1tenth_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --build /ros2_ws/build/f1tenth_mapping -- -j8 -l8
+[0.978s] Invoking command in '/ros2_ws/build/f1tenth_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --install /ros2_ws/build/f1tenth_mapping
+[1.001s] -- Install configuration: ""
+[1.001s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//launch
+[1.006s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//launch/occupancy_grid.launch.py
+[1.006s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//launch/carto.launch.py
+[1.007s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//launch/publish_odom.launch.py
+[1.007s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//config
+[1.007s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//config/custom_nav2_params.yaml
+[1.007s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//config/f1tenth_2d.lua
+[1.007s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//config/custom_slam_params.yaml
+[1.008s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/lib/f1tenth_mapping/publish_odom.py
+[1.008s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/ament_index/resource_index/package_run_dependencies/f1tenth_mapping
+[1.009s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/ament_index/resource_index/parent_prefix_path/f1tenth_mapping
+[1.010s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/environment/ament_prefix_path.sh
+[1.012s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/environment/ament_prefix_path.dsv
+[1.021s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/environment/path.sh
+[1.021s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/environment/path.dsv
+[1.021s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/local_setup.bash
+[1.022s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/local_setup.sh
+[1.022s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/local_setup.zsh
+[1.022s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/local_setup.dsv
+[1.023s] -- Installing: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/package.dsv
+[1.023s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/ament_index/resource_index/packages/f1tenth_mapping
+[1.023s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/cmake/f1tenth_mappingConfig.cmake
+[1.024s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/cmake/f1tenth_mappingConfig-version.cmake
+[1.024s] -- Up-to-date: /ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/package.xml
+[1.024s] Invoked command in '/ros2_ws/build/f1tenth_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --install /ros2_ws/build/f1tenth_mapping

@@ -1,0 +1,5 @@
+  File "/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages/autodrive_f1tenth/autodrive_bridge_1.py", line 194
+    global throttle_command, steering_command
+    ^
+SyntaxError: name 'throttle_command' is assigned to before global declaration
+
