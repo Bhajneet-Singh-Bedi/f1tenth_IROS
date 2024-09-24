@@ -1,0 +1,510 @@
+[0.726s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'particle_filter']
+[0.727s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f04e27a96d0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['particle_filter'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f04e27a96d0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f04e27a9d30>)
+[0.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.818s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.820s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bhajneet/sim_racing/ros2_ws'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extensions ['ignore', 'ignore_ament_install']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extension 'ignore'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extension 'ignore_ament_install'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extensions ['colcon_pkg']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extension 'colcon_pkg'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extensions ['colcon_meta']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extension 'colcon_meta'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extensions ['ros']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_f1tenth) by extension 'ros'
+[0.896s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autodrive_f1tenth' with type 'ros.ament_python' and name 'autodrive_f1tenth'
+[0.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mapping) by extension 'ignore'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mapping) by extension 'ignore_ament_install'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mapping) by extensions ['colcon_pkg']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mapping) by extension 'colcon_pkg'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mapping) by extensions ['colcon_meta']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mapping) by extension 'colcon_meta'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mapping) by extensions ['ros']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_mapping) by extension 'ros'
+[0.901s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_mapping' with type 'ros.ament_cmake' and name 'f1tenth_mapping'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extension 'ignore'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extension 'ignore_ament_install'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extensions ['colcon_pkg']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extensions ['ros']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_filter) by extension 'ros'
+[0.907s] DEBUG:colcon.colcon_core.package_identification:Package 'src/particle_filter' with type 'ros.ament_python' and name 'particle_filter'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline) by extensions ['ignore', 'ignore_ament_install']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline) by extension 'ignore'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline) by extension 'ignore_ament_install'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline) by extensions ['colcon_pkg']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline) by extension 'colcon_pkg'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline) by extensions ['colcon_meta']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline) by extension 'colcon_meta'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline) by extensions ['ros']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline) by extension 'ros'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline) by extensions ['cmake', 'python']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline) by extension 'cmake'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline) by extension 'python'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline) by extensions ['python_setup_py']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline) by extension 'python_setup_py'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization) by extensions ['ignore', 'ignore_ament_install']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization) by extension 'ignore'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization) by extension 'ignore_ament_install'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization) by extensions ['colcon_pkg']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization) by extension 'colcon_pkg'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization) by extensions ['colcon_meta']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization) by extension 'colcon_meta'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization) by extensions ['ros']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization) by extension 'ros'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization) by extensions ['cmake', 'python']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization) by extension 'cmake'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization) by extension 'python'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization) by extensions ['python_setup_py']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization) by extension 'python_setup_py'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap) by extensions ['ignore', 'ignore_ament_install']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap) by extension 'ignore_ament_install'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap) by extensions ['colcon_pkg']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap) by extension 'colcon_pkg'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap) by extensions ['colcon_meta']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap) by extension 'colcon_meta'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap) by extensions ['ros']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap) by extension 'ros'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap) by extensions ['cmake', 'python']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap) by extension 'cmake'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap) by extension 'python'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap) by extensions ['python_setup_py']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap) by extension 'python_setup_py'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap/src) by extensions ['ignore', 'ignore_ament_install']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap/src) by extension 'ignore'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap/src) by extension 'ignore_ament_install'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap/src) by extensions ['colcon_pkg']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap/src) by extension 'colcon_pkg'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap/src) by extensions ['colcon_meta']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap/src) by extension 'colcon_meta'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap/src) by extensions ['ros']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap/src) by extension 'ros'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap/src) by extensions ['cmake', 'python']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap/src) by extension 'cmake'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap/src) by extension 'python'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap/src) by extensions ['python_setup_py']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/frictionmap/src) by extension 'python_setup_py'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob) by extensions ['ignore', 'ignore_ament_install']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob) by extension 'ignore'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob) by extension 'ignore_ament_install'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob) by extensions ['colcon_pkg']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob) by extension 'colcon_pkg'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob) by extensions ['colcon_meta']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob) by extension 'colcon_meta'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob) by extensions ['ros']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob) by extension 'ros'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob) by extensions ['cmake', 'python']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob) by extension 'cmake'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob) by extension 'python'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob) by extensions ['python_setup_py']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob) by extension 'python_setup_py'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/__pycache__) by extension 'ignore'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/__pycache__) by extension 'ignore_ament_install'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/__pycache__) by extensions ['colcon_pkg']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/__pycache__) by extension 'colcon_pkg'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/__pycache__) by extensions ['colcon_meta']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/__pycache__) by extension 'colcon_meta'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/__pycache__) by extensions ['ros']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/__pycache__) by extension 'ros'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/__pycache__) by extensions ['cmake', 'python']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/__pycache__) by extension 'cmake'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/__pycache__) by extension 'python'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/__pycache__) by extensions ['python_setup_py']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/__pycache__) by extension 'python_setup_py'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src) by extensions ['ignore', 'ignore_ament_install']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src) by extension 'ignore'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src) by extension 'ignore_ament_install'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src) by extensions ['colcon_pkg']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src) by extension 'colcon_pkg'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src) by extensions ['colcon_meta']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src) by extension 'colcon_meta'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src) by extensions ['ros']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src) by extension 'ros'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src) by extensions ['cmake', 'python']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src) by extension 'cmake'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src) by extension 'python'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src) by extensions ['python_setup_py']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src) by extension 'python_setup_py'
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src/__pycache__) by extension 'ignore'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src/__pycache__) by extension 'ignore_ament_install'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src/__pycache__) by extensions ['colcon_pkg']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src/__pycache__) by extension 'colcon_pkg'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src/__pycache__) by extensions ['colcon_meta']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src/__pycache__) by extension 'colcon_meta'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src/__pycache__) by extensions ['ros']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src/__pycache__) by extension 'ros'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src/__pycache__) by extensions ['cmake', 'python']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src/__pycache__) by extension 'cmake'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src/__pycache__) by extension 'python'
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src/__pycache__) by extensions ['python_setup_py']
+[0.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/helper_funcs_glob/src/__pycache__) by extension 'python_setup_py'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs) by extensions ['ignore', 'ignore_ament_install']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs) by extension 'ignore'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs) by extension 'ignore_ament_install'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs) by extensions ['colcon_pkg']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs) by extension 'colcon_pkg'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs) by extensions ['colcon_meta']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs) by extension 'colcon_meta'
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs) by extensions ['ros']
+[0.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs) by extension 'ros'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs) by extensions ['cmake', 'python']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs) by extension 'cmake'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs) by extension 'python'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs) by extensions ['python_setup_py']
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs) by extension 'python_setup_py'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/frictionmaps) by extensions ['ignore', 'ignore_ament_install']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/frictionmaps) by extension 'ignore'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/frictionmaps) by extension 'ignore_ament_install'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/frictionmaps) by extensions ['colcon_pkg']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/frictionmaps) by extension 'colcon_pkg'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/frictionmaps) by extensions ['colcon_meta']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/frictionmaps) by extension 'colcon_meta'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/frictionmaps) by extensions ['ros']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/frictionmaps) by extension 'ros'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/frictionmaps) by extensions ['cmake', 'python']
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/frictionmaps) by extension 'cmake'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/frictionmaps) by extension 'python'
+[0.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/frictionmaps) by extensions ['python_setup_py']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/frictionmaps) by extension 'python_setup_py'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/tracks) by extensions ['ignore', 'ignore_ament_install']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/tracks) by extension 'ignore'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/tracks) by extension 'ignore_ament_install'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/tracks) by extensions ['colcon_pkg']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/tracks) by extension 'colcon_pkg'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/tracks) by extensions ['colcon_meta']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/tracks) by extension 'colcon_meta'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/tracks) by extensions ['ros']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/tracks) by extension 'ros'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/tracks) by extensions ['cmake', 'python']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/tracks) by extension 'cmake'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/tracks) by extension 'python'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/tracks) by extensions ['python_setup_py']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/tracks) by extension 'python_setup_py'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/veh_dyn_info) by extensions ['ignore', 'ignore_ament_install']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/veh_dyn_info) by extension 'ignore'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/veh_dyn_info) by extension 'ignore_ament_install'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/veh_dyn_info) by extensions ['colcon_pkg']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/veh_dyn_info) by extension 'colcon_pkg'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/veh_dyn_info) by extensions ['colcon_meta']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/veh_dyn_info) by extension 'colcon_meta'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/veh_dyn_info) by extensions ['ros']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/veh_dyn_info) by extension 'ros'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/veh_dyn_info) by extensions ['cmake', 'python']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/veh_dyn_info) by extension 'cmake'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/veh_dyn_info) by extension 'python'
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/veh_dyn_info) by extensions ['python_setup_py']
+[0.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/inputs/veh_dyn_info) by extension 'python_setup_py'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/maps) by extensions ['ignore', 'ignore_ament_install']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/maps) by extension 'ignore'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/maps) by extension 'ignore_ament_install'
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/maps) by extensions ['colcon_pkg']
+[0.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/maps) by extension 'colcon_pkg'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/maps) by extensions ['colcon_meta']
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/maps) by extension 'colcon_meta'
+[0.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/maps) by extensions ['ros']
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/maps) by extension 'ros'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/maps) by extensions ['cmake', 'python']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/maps) by extension 'cmake'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/maps) by extension 'python'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/maps) by extensions ['python_setup_py']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/maps) by extension 'python_setup_py'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj) by extension 'ignore_ament_install'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj) by extensions ['colcon_pkg']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj) by extension 'colcon_pkg'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj) by extensions ['colcon_meta']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj) by extension 'colcon_meta'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj) by extensions ['ros']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj) by extension 'ros'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj) by extensions ['cmake', 'python']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj) by extension 'cmake'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj) by extension 'python'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj) by extensions ['python_setup_py']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj) by extension 'python_setup_py'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/__pycache__) by extension 'ignore'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/__pycache__) by extension 'ignore_ament_install'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/__pycache__) by extensions ['colcon_pkg']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/__pycache__) by extension 'colcon_pkg'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/__pycache__) by extensions ['colcon_meta']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/__pycache__) by extension 'colcon_meta'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/__pycache__) by extensions ['ros']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/__pycache__) by extension 'ros'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/__pycache__) by extensions ['cmake', 'python']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/__pycache__) by extension 'cmake'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/__pycache__) by extension 'python'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/__pycache__) by extensions ['python_setup_py']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/__pycache__) by extension 'python_setup_py'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extensions ['ignore', 'ignore_ament_install']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'ignore'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'ignore_ament_install'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extensions ['colcon_pkg']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'colcon_pkg'
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extensions ['colcon_meta']
+[0.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'colcon_meta'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extensions ['ros']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'ros'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extensions ['cmake', 'python']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'cmake'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'python'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extensions ['python_setup_py']
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'python_setup_py'
+[0.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/__pycache__) by extension 'ignore'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/__pycache__) by extension 'ignore_ament_install'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/__pycache__) by extensions ['colcon_pkg']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/__pycache__) by extension 'colcon_pkg'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/__pycache__) by extensions ['colcon_meta']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/__pycache__) by extension 'colcon_meta'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/__pycache__) by extensions ['ros']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/__pycache__) by extension 'ros'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/__pycache__) by extensions ['cmake', 'python']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/__pycache__) by extension 'cmake'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/__pycache__) by extension 'python'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/__pycache__) by extensions ['python_setup_py']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/__pycache__) by extension 'python_setup_py'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extensions ['ignore', 'ignore_ament_install']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'ignore'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'colcon_pkg'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extensions ['colcon_meta']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'colcon_meta'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extensions ['ros']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'ros'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extensions ['cmake', 'python']
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'cmake'
+[0.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'python'
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extensions ['python_setup_py']
+[0.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'python_setup_py'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src/__pycache__) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src/__pycache__) by extension 'ignore_ament_install'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src/__pycache__) by extensions ['colcon_pkg']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src/__pycache__) by extension 'colcon_pkg'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src/__pycache__) by extensions ['colcon_meta']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src/__pycache__) by extension 'colcon_meta'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src/__pycache__) by extensions ['ros']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src/__pycache__) by extension 'ros'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src/__pycache__) by extensions ['cmake', 'python']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src/__pycache__) by extension 'cmake'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src/__pycache__) by extension 'python'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src/__pycache__) by extensions ['python_setup_py']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/powertrain_src/src/__pycache__) by extension 'python_setup_py'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src) by extensions ['ignore', 'ignore_ament_install']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src) by extension 'ignore_ament_install'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src) by extensions ['colcon_pkg']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src) by extension 'colcon_pkg'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src) by extensions ['colcon_meta']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src) by extension 'colcon_meta'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src) by extensions ['ros']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src) by extension 'ros'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src) by extensions ['cmake', 'python']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src) by extension 'cmake'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src) by extension 'python'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src) by extensions ['python_setup_py']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src) by extension 'python_setup_py'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src/__pycache__) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src/__pycache__) by extension 'ignore_ament_install'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src/__pycache__) by extensions ['colcon_pkg']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src/__pycache__) by extension 'colcon_pkg'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src/__pycache__) by extensions ['colcon_meta']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src/__pycache__) by extension 'colcon_meta'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src/__pycache__) by extensions ['ros']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src/__pycache__) by extension 'ros'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src/__pycache__) by extensions ['cmake', 'python']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src/__pycache__) by extension 'cmake'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src/__pycache__) by extension 'python'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src/__pycache__) by extensions ['python_setup_py']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/opt_mintime_traj/src/__pycache__) by extension 'python_setup_py'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs) by extensions ['ignore', 'ignore_ament_install']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs) by extension 'ignore'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs) by extension 'ignore_ament_install'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs) by extensions ['colcon_pkg']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs) by extension 'colcon_pkg'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs) by extensions ['colcon_meta']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs) by extension 'colcon_meta'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs) by extensions ['ros']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs) by extension 'ros'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs) by extensions ['cmake', 'python']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs) by extension 'cmake'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs) by extension 'python'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs) by extensions ['python_setup_py']
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs) by extension 'python_setup_py'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map) by extensions ['colcon_pkg']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map) by extension 'colcon_pkg'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map) by extensions ['colcon_meta']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map) by extension 'colcon_meta'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map) by extensions ['ros']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map) by extension 'ros'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map) by extensions ['cmake', 'python']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map) by extension 'cmake'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map) by extension 'python'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map) by extensions ['python_setup_py']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map) by extension 'python_setup_py'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map/mintime-2024-09-21 17:18:27.077844) by extensions ['ignore', 'ignore_ament_install']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map/mintime-2024-09-21 17:18:27.077844) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map/mintime-2024-09-21 17:18:27.077844) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map/mintime-2024-09-21 17:18:27.077844) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map/mintime-2024-09-21 17:18:27.077844) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map/mintime-2024-09-21 17:18:27.077844) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map/mintime-2024-09-21 17:18:27.077844) by extension 'colcon_meta'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map/mintime-2024-09-21 17:18:27.077844) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map/mintime-2024-09-21 17:18:27.077844) by extension 'ros'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map/mintime-2024-09-21 17:18:27.077844) by extensions ['cmake', 'python']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map/mintime-2024-09-21 17:18:27.077844) by extension 'cmake'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map/mintime-2024-09-21 17:18:27.077844) by extension 'python'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map/mintime-2024-09-21 17:18:27.077844) by extensions ['python_setup_py']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/outputs/first_map/mintime-2024-09-21 17:18:27.077844) by extension 'python_setup_py'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/params) by extensions ['ignore', 'ignore_ament_install']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/params) by extension 'ignore'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/params) by extension 'ignore_ament_install'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/params) by extensions ['colcon_pkg']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/params) by extension 'colcon_pkg'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/params) by extensions ['colcon_meta']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/params) by extension 'colcon_meta'
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/params) by extensions ['ros']
+[0.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/params) by extension 'ros'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/params) by extensions ['cmake', 'python']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/params) by extension 'cmake'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/params) by extension 'python'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/params) by extensions ['python_setup_py']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/raceline/Raceline-Optimization/params) by extension 'python_setup_py'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extensions ['ignore', 'ignore_ament_install']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extension 'ignore'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extension 'ignore_ament_install'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extensions ['colcon_pkg']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extension 'colcon_pkg'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extensions ['colcon_meta']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extension 'colcon_meta'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extensions ['ros']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extension 'ros'
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extensions ['cmake', 'python']
+[0.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extension 'cmake'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/range_libc) by extension 'python'
+[0.972s] DEBUG:colcon.colcon_core.package_identification:Package 'src/range_libc' with type 'cmake' and name 'range_lib'
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.972s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.009s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'autodrive_f1tenth' in 'src/autodrive_f1tenth'
+[1.010s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'f1tenth_mapping' in 'src/f1tenth_mapping'
+[1.010s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'range_lib' in 'src/range_libc'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'cmake_args' from command line to 'None'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'cmake_target' from command line to 'None'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'cmake_clean_first' from command line to 'False'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'cmake_force_configure' from command line to 'False'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'ament_cmake_args' from command line to 'None'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[1.011s] Level 5:colcon.colcon_core.verb:set package 'particle_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.012s] DEBUG:colcon.colcon_core.verb:Building package 'particle_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bhajneet/sim_racing/ros2_ws/build/particle_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter', 'merge_install': False, 'path': '/home/bhajneet/sim_racing/ros2_ws/src/particle_filter', 'symlink_install': False, 'test_result_base': None}
+[1.012s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.018s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.018s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bhajneet/sim_racing/ros2_ws/src/particle_filter' with build type 'ament_python'
+[1.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('particle_filter', 'ament_prefix_path')
+[1.032s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/share/particle_filter/hook/ament_prefix_path.ps1'
+[1.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/share/particle_filter/hook/ament_prefix_path.dsv'
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/share/particle_filter/hook/ament_prefix_path.sh'
+[1.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.042s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.624s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bhajneet/sim_racing/ros2_ws/src/particle_filter'
+[1.630s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.630s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bhajneet/sim_racing/ros2_ws/src/particle_filter': PYTHONPATH=/home/bhajneet/sim_racing/ros2_ws/build/particle_filter/prefix_override:/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/bhajneet/sim_racing/ros2_ws/build/particle_filter/build install --record /home/bhajneet/sim_racing/ros2_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed
+[3.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bhajneet/sim_racing/ros2_ws/src/particle_filter' returned '0': PYTHONPATH=/home/bhajneet/sim_racing/ros2_ws/build/particle_filter/prefix_override:/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/bhajneet/sim_racing/ros2_ws/build/particle_filter/build install --record /home/bhajneet/sim_racing/ros2_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed
+[3.491s] Level 1:colcon.colcon_core.environment:checking '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter' for CMake module files
+[3.492s] Level 1:colcon.colcon_core.environment:checking '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter' for CMake config files
+[3.495s] Level 1:colcon.colcon_core.environment:checking '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/lib'
+[3.496s] Level 1:colcon.colcon_core.environment:checking '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/bin'
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/lib/pkgconfig/particle_filter.pc'
+[3.497s] Level 1:colcon.colcon_core.environment:checking '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/lib/python3.8/site-packages'
+[3.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('particle_filter', 'pythonpath')
+[3.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/share/particle_filter/hook/pythonpath.ps1'
+[3.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/share/particle_filter/hook/pythonpath.dsv'
+[3.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/share/particle_filter/hook/pythonpath.sh'
+[3.512s] Level 1:colcon.colcon_core.environment:checking '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/bin'
+[3.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(particle_filter)
+[3.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/share/particle_filter/package.ps1'
+[3.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/share/particle_filter/package.dsv'
+[3.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/share/particle_filter/package.sh'
+[3.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/share/particle_filter/package.bash'
+[3.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/share/particle_filter/package.zsh'
+[3.528s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/share/colcon-core/packages/particle_filter)
+[3.528s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.529s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.529s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.530s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.546s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.546s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.547s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.548s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.553s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[3.554s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.559s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bhajneet/sim_racing/ros2_ws/install/local_setup.ps1'
+[3.565s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bhajneet/sim_racing/ros2_ws/install/_local_setup_util_ps1.py'
+[3.569s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bhajneet/sim_racing/ros2_ws/install/setup.ps1'
+[3.578s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bhajneet/sim_racing/ros2_ws/install/local_setup.sh'
+[3.582s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bhajneet/sim_racing/ros2_ws/install/_local_setup_util_sh.py'
+[3.586s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bhajneet/sim_racing/ros2_ws/install/setup.sh'
+[3.591s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bhajneet/sim_racing/ros2_ws/install/local_setup.bash'
+[3.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bhajneet/sim_racing/ros2_ws/install/setup.bash'
+[3.595s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bhajneet/sim_racing/ros2_ws/install/local_setup.zsh'
+[3.597s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bhajneet/sim_racing/ros2_ws/install/setup.zsh'
