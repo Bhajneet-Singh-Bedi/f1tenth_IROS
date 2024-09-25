@@ -48,6 +48,6 @@ def generate_launch_description():
             output='screen',
             parameters=[{'use_sim_time': use_sim_time}],
             remappings=[('/scan', '/autodrive/f1tenth_1/lidar')],
-            arguments=['-resolution', resolution, '-publish_period_sec', publish_period_sec]),
+            arguments=['-resolution', resolution, '-publish_period_sec', publish_period_sec])
 ,
     ])
