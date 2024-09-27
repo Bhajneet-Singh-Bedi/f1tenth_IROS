@@ -1,0 +1,6 @@
+Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bhajneet/sim_racing/ros2_ws/src/f1tenth_mapping -DCMAKE_INSTALL_PREFIX=/home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping
+Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bhajneet/sim_racing/ros2_ws/src/f1tenth_mapping -DCMAKE_INSTALL_PREFIX=/home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping
+Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping -- -j8 -l8
+Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping -- -j8 -l8
+Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping
+Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping

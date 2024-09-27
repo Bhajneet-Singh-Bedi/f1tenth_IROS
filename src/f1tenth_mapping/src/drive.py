@@ -19,7 +19,7 @@ def bound_steer(steer_cmd):
     return constrain(steer_cmd, -1.0, 1.0)
 
 def bound_drive(drive_cmd):
-    return constrain(drive_cmd, 0.0, 1.0)
+    return constrain(drive_cmd, -0.05, 0.05)
 
 class TeleopNode(Node):
     def __init__(self):
@@ -40,6 +40,10 @@ class TeleopNode(Node):
         throttle = bound_drive(msg.drive.speed)
         steering = bound_steer(msg.drive.steering_angle)
 
+        # if steering > 0.0:
+        #     steering = -steering
+        # else:
+        #     steering = abs(steering)
         # Create Float32 messages
         throttle_msg = Float32()
         steering_msg = Float32()

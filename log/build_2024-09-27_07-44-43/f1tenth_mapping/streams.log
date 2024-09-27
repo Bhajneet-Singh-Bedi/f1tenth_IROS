@@ -1,0 +1,31 @@
+[0.023s] Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/sim_racing/ros2_ws/install/stanley_avoidance:/home/bhajneet/sim_racing/ros2_ws/install/particle_filter:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --build /home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping -- -j8 -l8
+[0.116s] Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/sim_racing/ros2_ws/install/stanley_avoidance:/home/bhajneet/sim_racing/ros2_ws/install/particle_filter:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --build /home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping -- -j8 -l8
+[0.161s] Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/sim_racing/ros2_ws/install/stanley_avoidance:/home/bhajneet/sim_racing/ros2_ws/install/particle_filter:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --install /home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping
+[0.172s] -- Install configuration: ""
+[0.172s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//launch
+[0.172s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//launch/occupancy_grid.launch.py
+[0.172s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//launch/drive.launch.py
+[0.172s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//launch/carto.launch.py
+[0.172s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//launch/publish_odom.launch.py
+[0.172s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//config
+[0.172s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//config/custom_nav2_params.yaml
+[0.172s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//config/f1tenth_2d.lua
+[0.172s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//config/custom_slam_params.yaml
+[0.172s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/lib/f1tenth_mapping/publish_odom.py
+[0.172s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/lib/f1tenth_mapping/drive.py
+[0.172s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/ament_index/resource_index/package_run_dependencies/f1tenth_mapping
+[0.172s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/ament_index/resource_index/parent_prefix_path/f1tenth_mapping
+[0.173s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/environment/ament_prefix_path.sh
+[0.173s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/environment/ament_prefix_path.dsv
+[0.173s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/environment/path.sh
+[0.173s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/environment/path.dsv
+[0.173s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/local_setup.bash
+[0.173s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/local_setup.sh
+[0.173s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/local_setup.zsh
+[0.173s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/local_setup.dsv
+[0.173s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/package.dsv
+[0.173s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/ament_index/resource_index/packages/f1tenth_mapping
+[0.173s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/cmake/f1tenth_mappingConfig.cmake
+[0.173s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/cmake/f1tenth_mappingConfig-version.cmake
+[0.173s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/package.xml
+[0.176s] Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/sim_racing/ros2_ws/install/stanley_avoidance:/home/bhajneet/sim_racing/ros2_ws/install/particle_filter:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --install /home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping

@@ -1,0 +1,248 @@
+[0.000000] (-) TimerEvent: {}
+[0.000577] (-) JobUnselected: {'identifier': 'autodrive_f1tenth'}
+[0.000757] (-) JobUnselected: {'identifier': 'f1tenth_mapping'}
+[0.000779] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.000797] (-) JobUnselected: {'identifier': 'range_lib'}
+[0.000817] (pure_pursuit) JobQueued: {'identifier': 'pure_pursuit', 'dependencies': OrderedDict()}
+[0.000839] (pure_pursuit) JobStarted: {'identifier': 'pure_pursuit'}
+[0.025276] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'cmake'}
+[0.026577] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'build'}
+[0.027794] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit', '--', '-j8', '-l8'], 'cwd': '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit', 'env': OrderedDict([('HOSTNAME', 'bhajneet-VivoBook'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-806ab469-0583-4980-a734-2fe454ce9478.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/bhajneet/sim_racing/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-917c5880-c8c1-4820-a1b1-623682122373.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-917c5880-c8c1-4820-a1b1-623682122373.sock","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-50ca9c62e9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-917c5880-c8c1-4820-a1b1-623682122373.sock'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit:/home/bhajneet/sim_racing/ros2_ws/install/particle_filter:/home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/lib/python3.8/site-packages:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit:/home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping:/home/bhajneet/sim_racing/ros2_ws/install/particle_filter:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy')]), 'shell': False}
+[0.099678] (-) TimerEvent: {}
+[0.106249] (pure_pursuit) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pure_pursuit\x1b[0m\n'}
+[0.147706] (pure_pursuit) StdoutLine: {'line': b'[ 50%] Built target waypoint_visualizer\n'}
+[0.192446] (pure_pursuit) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o\x1b[0m\n'}
+[0.199932] (-) TimerEvent: {}
+[0.300557] (-) TimerEvent: {}
+[0.401074] (-) TimerEvent: {}
+[0.501678] (-) TimerEvent: {}
+[0.602497] (-) TimerEvent: {}
+[0.703161] (-) TimerEvent: {}
+[0.803837] (-) TimerEvent: {}
+[0.904438] (-) TimerEvent: {}
+[1.004933] (-) TimerEvent: {}
+[1.105593] (-) TimerEvent: {}
+[1.206936] (-) TimerEvent: {}
+[1.307774] (-) TimerEvent: {}
+[1.408635] (-) TimerEvent: {}
+[1.509111] (-) TimerEvent: {}
+[1.609704] (-) TimerEvent: {}
+[1.710142] (-) TimerEvent: {}
+[1.814404] (-) TimerEvent: {}
+[1.915279] (-) TimerEvent: {}
+[2.015841] (-) TimerEvent: {}
+[2.116954] (-) TimerEvent: {}
+[2.217453] (-) TimerEvent: {}
+[2.318273] (-) TimerEvent: {}
+[2.418985] (-) TimerEvent: {}
+[2.520483] (-) TimerEvent: {}
+[2.621049] (-) TimerEvent: {}
+[2.721546] (-) TimerEvent: {}
+[2.822017] (-) TimerEvent: {}
+[2.922600] (-) TimerEvent: {}
+[3.022920] (-) TimerEvent: {}
+[3.123494] (-) TimerEvent: {}
+[3.223844] (-) TimerEvent: {}
+[3.324356] (-) TimerEvent: {}
+[3.424764] (-) TimerEvent: {}
+[3.525093] (-) TimerEvent: {}
+[3.625568] (-) TimerEvent: {}
+[3.725898] (-) TimerEvent: {}
+[3.826470] (-) TimerEvent: {}
+[3.926848] (-) TimerEvent: {}
+[4.027227] (-) TimerEvent: {}
+[4.127626] (-) TimerEvent: {}
+[4.227968] (-) TimerEvent: {}
+[4.328380] (-) TimerEvent: {}
+[4.428899] (-) TimerEvent: {}
+[4.529368] (-) TimerEvent: {}
+[4.629907] (-) TimerEvent: {}
+[4.730406] (-) TimerEvent: {}
+[4.831174] (-) TimerEvent: {}
+[4.931659] (-) TimerEvent: {}
+[5.032240] (-) TimerEvent: {}
+[5.132892] (-) TimerEvent: {}
+[5.233531] (-) TimerEvent: {}
+[5.333927] (-) TimerEvent: {}
+[5.434393] (-) TimerEvent: {}
+[5.534828] (-) TimerEvent: {}
+[5.635241] (-) TimerEvent: {}
+[5.735763] (-) TimerEvent: {}
+[5.836452] (-) TimerEvent: {}
+[5.936921] (-) TimerEvent: {}
+[6.037349] (-) TimerEvent: {}
+[6.137744] (-) TimerEvent: {}
+[6.238182] (-) TimerEvent: {}
+[6.339125] (-) TimerEvent: {}
+[6.439610] (-) TimerEvent: {}
+[6.540100] (-) TimerEvent: {}
+[6.640531] (-) TimerEvent: {}
+[6.742398] (-) TimerEvent: {}
+[6.843030] (-) TimerEvent: {}
+[6.943402] (-) TimerEvent: {}
+[7.043821] (-) TimerEvent: {}
+[7.146403] (-) TimerEvent: {}
+[7.247146] (-) TimerEvent: {}
+[7.347939] (-) TimerEvent: {}
+[7.448524] (-) TimerEvent: {}
+[7.549250] (-) TimerEvent: {}
+[7.649815] (-) TimerEvent: {}
+[7.750525] (-) TimerEvent: {}
+[7.852210] (-) TimerEvent: {}
+[7.952752] (-) TimerEvent: {}
+[8.053182] (-) TimerEvent: {}
+[8.153692] (-) TimerEvent: {}
+[8.254232] (-) TimerEvent: {}
+[8.354729] (-) TimerEvent: {}
+[8.455514] (-) TimerEvent: {}
+[8.555987] (-) TimerEvent: {}
+[8.657146] (-) TimerEvent: {}
+[8.757587] (-) TimerEvent: {}
+[8.858058] (-) TimerEvent: {}
+[8.958738] (-) TimerEvent: {}
+[9.059401] (-) TimerEvent: {}
+[9.160164] (-) TimerEvent: {}
+[9.260831] (-) TimerEvent: {}
+[9.362414] (-) TimerEvent: {}
+[9.463991] (-) TimerEvent: {}
+[9.564350] (-) TimerEvent: {}
+[9.664761] (-) TimerEvent: {}
+[9.765122] (-) TimerEvent: {}
+[9.865677] (-) TimerEvent: {}
+[9.967614] (-) TimerEvent: {}
+[10.068181] (-) TimerEvent: {}
+[10.168717] (-) TimerEvent: {}
+[10.269236] (-) TimerEvent: {}
+[10.369656] (-) TimerEvent: {}
+[10.470087] (-) TimerEvent: {}
+[10.570504] (-) TimerEvent: {}
+[10.670899] (-) TimerEvent: {}
+[10.771441] (-) TimerEvent: {}
+[10.872137] (-) TimerEvent: {}
+[10.972980] (-) TimerEvent: {}
+[11.073812] (-) TimerEvent: {}
+[11.174654] (-) TimerEvent: {}
+[11.275499] (-) TimerEvent: {}
+[11.376114] (-) TimerEvent: {}
+[11.477514] (-) TimerEvent: {}
+[11.578140] (-) TimerEvent: {}
+[11.678780] (-) TimerEvent: {}
+[11.779968] (-) TimerEvent: {}
+[11.880801] (-) TimerEvent: {}
+[11.981252] (-) TimerEvent: {}
+[12.081778] (-) TimerEvent: {}
+[12.182355] (-) TimerEvent: {}
+[12.282920] (-) TimerEvent: {}
+[12.383511] (-) TimerEvent: {}
+[12.484132] (-) TimerEvent: {}
+[12.584612] (-) TimerEvent: {}
+[12.685352] (-) TimerEvent: {}
+[12.785991] (-) TimerEvent: {}
+[12.886561] (-) TimerEvent: {}
+[12.987057] (-) TimerEvent: {}
+[13.087665] (-) TimerEvent: {}
+[13.188358] (-) TimerEvent: {}
+[13.289020] (-) TimerEvent: {}
+[13.389920] (-) TimerEvent: {}
+[13.490560] (-) TimerEvent: {}
+[13.591188] (-) TimerEvent: {}
+[13.691763] (-) TimerEvent: {}
+[13.793135] (-) TimerEvent: {}
+[13.893622] (-) TimerEvent: {}
+[13.994173] (-) TimerEvent: {}
+[14.094910] (-) TimerEvent: {}
+[14.196020] (-) TimerEvent: {}
+[14.296583] (-) TimerEvent: {}
+[14.397043] (-) TimerEvent: {}
+[14.497578] (-) TimerEvent: {}
+[14.598313] (-) TimerEvent: {}
+[14.698962] (-) TimerEvent: {}
+[14.799818] (-) TimerEvent: {}
+[14.900462] (-) TimerEvent: {}
+[15.001115] (-) TimerEvent: {}
+[15.101740] (-) TimerEvent: {}
+[15.202172] (-) TimerEvent: {}
+[15.302671] (-) TimerEvent: {}
+[15.403344] (-) TimerEvent: {}
+[15.503932] (-) TimerEvent: {}
+[15.604818] (-) TimerEvent: {}
+[15.705379] (-) TimerEvent: {}
+[15.805959] (-) TimerEvent: {}
+[15.908027] (-) TimerEvent: {}
+[16.008588] (-) TimerEvent: {}
+[16.109496] (-) TimerEvent: {}
+[16.210414] (-) TimerEvent: {}
+[16.311521] (-) TimerEvent: {}
+[16.412090] (-) TimerEvent: {}
+[16.512990] (-) TimerEvent: {}
+[16.614322] (-) TimerEvent: {}
+[16.714872] (-) TimerEvent: {}
+[16.815332] (-) TimerEvent: {}
+[16.915890] (-) TimerEvent: {}
+[17.016975] (-) TimerEvent: {}
+[17.117688] (-) TimerEvent: {}
+[17.218335] (-) TimerEvent: {}
+[17.319021] (-) TimerEvent: {}
+[17.419546] (-) TimerEvent: {}
+[17.520047] (-) TimerEvent: {}
+[17.621572] (-) TimerEvent: {}
+[17.722401] (-) TimerEvent: {}
+[17.824899] (-) TimerEvent: {}
+[17.925671] (-) TimerEvent: {}
+[18.026232] (-) TimerEvent: {}
+[18.127163] (-) TimerEvent: {}
+[18.206341] (pure_pursuit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pure_pursuit\x1b[0m\n'}
+[18.227322] (-) TimerEvent: {}
+[18.327802] (-) TimerEvent: {}
+[18.428868] (-) TimerEvent: {}
+[18.529343] (-) TimerEvent: {}
+[18.630001] (-) TimerEvent: {}
+[18.730757] (-) TimerEvent: {}
+[18.831743] (-) TimerEvent: {}
+[18.933209] (-) TimerEvent: {}
+[19.037471] (-) TimerEvent: {}
+[19.138234] (-) TimerEvent: {}
+[19.165559] (pure_pursuit) StdoutLine: {'line': b'[100%] Built target pure_pursuit\n'}
+[19.221452] (pure_pursuit) CommandEnded: {'returncode': 0}
+[19.238673] (-) TimerEvent: {}
+[19.316026] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'install'}
+[19.338999] (-) TimerEvent: {}
+[19.359772] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit'], 'cwd': '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit', 'env': OrderedDict([('HOSTNAME', 'bhajneet-VivoBook'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-806ab469-0583-4980-a734-2fe454ce9478.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/bhajneet/sim_racing/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-917c5880-c8c1-4820-a1b1-623682122373.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/bin/remote-cli:/home/ubuntu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-917c5880-c8c1-4820-a1b1-623682122373.sock","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-50ca9c62e9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-917c5880-c8c1-4820-a1b1-623682122373.sock'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit:/home/bhajneet/sim_racing/ros2_ws/install/particle_filter:/home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/bhajneet/sim_racing/ros2_ws/install/particle_filter/lib/python3.8/site-packages:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit:/home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping:/home/bhajneet/sim_racing/ros2_ws/install/particle_filter:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy')]), 'shell': False}
+[19.384727] (pure_pursuit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.385670] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit\n'}
+[19.392631] (pure_pursuit) StdoutLine: {'line': b'-- Set runtime path of "/home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit" to ""\n'}
+[19.393596] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_visualizer\n'}
+[19.394042] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/launch\n'}
+[19.394772] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit_launch.py\n'}
+[19.395061] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit.rviz\n'}
+[19.395296] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit_launch.py\n'}
+[19.395514] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit.rviz\n'}
+[19.395703] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/config\n'}
+[19.395894] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/config/sim_config.yaml\n'}
+[19.396087] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/config/config.yaml\n'}
+[19.396551] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/racelines\n'}
+[19.396752] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/racelines/pingpong_clean.csv\n'}
+[19.397017] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/racelines/e7_floor5.csv\n'}
+[19.398443] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/racelines/first_map.csv\n'}
+[19.398941] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/racelines/e7_floor5_biggest.csv\n'}
+[19.399540] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/racelines/e7_floor5_square.csv\n'}
+[19.400048] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit\n'}
+[19.400510] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit\n'}
+[19.400892] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh\n'}
+[19.401683] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv\n'}
+[19.402547] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh\n'}
+[19.403321] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv\n'}
+[19.403645] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash\n'}
+[19.403930] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh\n'}
+[19.404072] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh\n'}
+[19.404231] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv\n'}
+[19.405333] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/package.dsv\n'}
+[19.405497] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit\n'}
+[19.405609] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake\n'}
+[19.405728] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake\n'}
+[19.407685] (pure_pursuit) StdoutLine: {'line': b'-- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/package.xml\n'}
+[19.409381] (pure_pursuit) CommandEnded: {'returncode': 0}
+[19.439228] (-) TimerEvent: {}
+[19.540503] (-) TimerEvent: {}
+[19.627046] (pure_pursuit) JobEnded: {'identifier': 'pure_pursuit', 'rc': 0}
+[19.631816] (-) EventReactorShutdown: {}

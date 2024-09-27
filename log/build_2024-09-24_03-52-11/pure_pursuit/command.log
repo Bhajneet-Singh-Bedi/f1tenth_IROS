@@ -1,0 +1,6 @@
+Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bhajneet/sim_racing/ros2_ws/src/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit
+Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bhajneet/sim_racing/ros2_ws/src/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit
+Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit -- -j8 -l8
+Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit -- -j8 -l8
+Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit
+Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit

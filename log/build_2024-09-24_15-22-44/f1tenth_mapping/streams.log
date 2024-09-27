@@ -1,0 +1,77 @@
+[0.024s] Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bhajneet/sim_racing/ros2_ws/src/f1tenth_mapping -DCMAKE_INSTALL_PREFIX=/home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping
+[0.161s] -- The C compiler identification is GNU 9.4.0
+[0.279s] -- The CXX compiler identification is GNU 9.4.0
+[0.286s] -- Check for working C compiler: /usr/bin/cc
+[0.364s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.365s] -- Detecting C compiler ABI info
+[0.441s] -- Detecting C compiler ABI info - done
+[0.451s] -- Detecting C compile features
+[0.452s] -- Detecting C compile features - done
+[0.455s] -- Check for working CXX compiler: /usr/bin/c++
+[0.539s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.541s] -- Detecting CXX compiler ABI info
+[0.634s] -- Detecting CXX compiler ABI info - done
+[0.647s] -- Detecting CXX compile features
+[0.648s] -- Detecting CXX compile features - done
+[0.659s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.685s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.685s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.880s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.943s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.955s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.100s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.136s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.299s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.301s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.303s] -- Looking for pthread.h
+[1.378s] -- Looking for pthread.h - found
+[1.378s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.457s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.457s] -- Looking for pthread_create in pthreads
+[1.514s] -- Looking for pthread_create in pthreads - not found
+[1.514s] -- Looking for pthread_create in pthread
+[1.586s] -- Looking for pthread_create in pthread - found
+[1.587s] -- Found Threads: TRUE  
+[1.756s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.759s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.874s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.959s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.962s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.963s] -- Added test 'lint_cmake' to check CMake code style
+[1.964s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.965s] -- Added test 'xmllint' to check XML markup files
+[1.968s] -- Configuring done
+[1.970s] -- Generating done
+[1.972s] -- Build files have been written to: /home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping
+[1.978s] Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bhajneet/sim_racing/ros2_ws/src/f1tenth_mapping -DCMAKE_INSTALL_PREFIX=/home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping
+[1.980s] Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping -- -j8 -l8
+[2.025s] Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping -- -j8 -l8
+[2.059s] Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping
+[2.067s] -- Install configuration: ""
+[2.067s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//launch
+[2.067s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//launch/occupancy_grid.launch.py
+[2.067s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//launch/drive.launch.py
+[2.067s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//launch/carto.launch.py
+[2.067s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//launch/publish_odom.launch.py
+[2.067s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//config
+[2.067s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//config/custom_nav2_params.yaml
+[2.067s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//config/f1tenth_2d.lua
+[2.068s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping//config/custom_slam_params.yaml
+[2.068s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/lib/f1tenth_mapping/publish_odom.py
+[2.068s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/ament_index/resource_index/package_run_dependencies/f1tenth_mapping
+[2.068s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/ament_index/resource_index/parent_prefix_path/f1tenth_mapping
+[2.068s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/environment/ament_prefix_path.sh
+[2.068s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/environment/ament_prefix_path.dsv
+[2.069s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/environment/path.sh
+[2.069s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/environment/path.dsv
+[2.069s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/local_setup.bash
+[2.069s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/local_setup.sh
+[2.069s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/local_setup.zsh
+[2.069s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/local_setup.dsv
+[2.069s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/package.dsv
+[2.069s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/ament_index/resource_index/packages/f1tenth_mapping
+[2.069s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/cmake/f1tenth_mappingConfig.cmake
+[2.070s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/cmake/f1tenth_mappingConfig-version.cmake
+[2.070s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/f1tenth_mapping/share/f1tenth_mapping/package.xml
+[2.072s] Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bhajneet/sim_racing/ros2_ws/build/f1tenth_mapping

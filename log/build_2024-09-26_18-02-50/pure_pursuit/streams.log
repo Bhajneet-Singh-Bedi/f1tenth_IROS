@@ -1,0 +1,43 @@
+[0.030s] Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit -- -j8 -l8
+[0.238s] [35m[1mScanning dependencies of target pure_pursuit[0m
+[0.280s] [ 50%] Built target waypoint_visualizer
+[0.320s] [ 75%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[10.290s] [100%] [32m[1mLinking CXX executable pure_pursuit[0m
+[10.990s] [100%] Built target pure_pursuit
+[11.012s] Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit -- -j8 -l8
+[11.076s] Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit
+[11.094s] -- Install configuration: ""
+[11.094s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit
+[11.097s] -- Set runtime path of "/home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit" to ""
+[11.098s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_visualizer
+[11.098s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/launch
+[11.099s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit_launch.py
+[11.099s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit.rviz
+[11.099s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit_launch.py
+[11.099s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit.rviz
+[11.099s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/config
+[11.099s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/config/sim_config.yaml
+[11.100s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/config/config.yaml
+[11.100s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/racelines
+[11.100s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/racelines/pingpong_clean.csv
+[11.101s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/racelines/e7_floor5.csv
+[11.101s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/racelines/first_map.csv
+[11.101s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/racelines/e7_floor5_biggest.csv
+[11.101s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/racelines/first_map_1.csv
+[11.101s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/racelines/e7_floor5_square.csv
+[11.102s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[11.102s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[11.102s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[11.102s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[11.102s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[11.102s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[11.103s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[11.103s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[11.103s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[11.103s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[11.103s] -- Installing: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/package.dsv
+[11.103s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[11.104s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[11.104s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[11.104s] -- Up-to-date: /home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit/share/pure_pursuit/package.xml
+[11.106s] Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit

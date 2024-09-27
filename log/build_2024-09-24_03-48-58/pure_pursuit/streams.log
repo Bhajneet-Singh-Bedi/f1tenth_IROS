@@ -1,0 +1,59 @@
+[0.055s] Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bhajneet/sim_racing/ros2_ws/src/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit
+[0.311s] -- The C compiler identification is GNU 9.4.0
+[0.525s] -- The CXX compiler identification is GNU 9.4.0
+[0.563s] -- Check for working C compiler: /usr/bin/cc
+[0.781s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.783s] -- Detecting C compiler ABI info
+[0.972s] -- Detecting C compiler ABI info - done
+[1.020s] -- Detecting C compile features
+[1.021s] -- Detecting C compile features - done
+[1.033s] -- Check for working CXX compiler: /usr/bin/c++
+[1.323s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.326s] -- Detecting CXX compiler ABI info
+[1.551s] -- Detecting CXX compiler ABI info - done
+[1.581s] -- Detecting CXX compile features
+[1.582s] -- Detecting CXX compile features - done
+[1.609s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.687s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.688s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.286s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.443s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.471s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.753s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.847s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.121s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.271s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.277s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.281s] -- Looking for pthread.h
+[3.509s] -- Looking for pthread.h - found
+[3.510s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.724s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.725s] -- Looking for pthread_create in pthreads
+[3.850s] -- Looking for pthread_create in pthreads - not found
+[3.851s] -- Looking for pthread_create in pthread
+[4.065s] -- Looking for pthread_create in pthread - found
+[4.071s] -- Found Threads: TRUE  
+[4.636s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[4.644s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.768s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.976s] CMake Error at CMakeLists.txt:29 (find_package):
+[4.977s]   By not providing "Findackermann_msgs.cmake" in CMAKE_MODULE_PATH this
+[4.977s]   project has asked CMake to find a package configuration file provided by
+[4.978s]   "ackermann_msgs", but CMake did not find one.
+[4.979s] 
+[4.979s]   Could not find a package configuration file provided by "ackermann_msgs"
+[4.979s]   with any of the following names:
+[4.980s] 
+[4.980s]     ackermann_msgsConfig.cmake
+[4.981s]     ackermann_msgs-config.cmake
+[4.981s] 
+[4.981s]   Add the installation prefix of "ackermann_msgs" to CMAKE_PREFIX_PATH or set
+[4.981s]   "ackermann_msgs_DIR" to a directory containing one of the above files.  If
+[4.981s]   "ackermann_msgs" provides a separate development package or SDK, be sure it
+[4.982s]   has been installed.
+[4.982s] 
+[4.982s] 
+[4.983s] -- Configuring incomplete, errors occurred!
+[4.983s] See also "/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit/CMakeFiles/CMakeOutput.log".
+[4.983s] See also "/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit/CMakeFiles/CMakeError.log".
+[5.002s] Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bhajneet/sim_racing/ros2_ws/src/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/bhajneet/sim_racing/ros2_ws/install/pure_pursuit

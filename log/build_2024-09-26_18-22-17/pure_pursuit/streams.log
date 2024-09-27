@@ -1,0 +1,15 @@
+[0.029s] Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/sim_racing/ros2_ws/install/stanley_avoidance:/home/bhajneet/sim_racing/ros2_ws/install/particle_filter:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --build /home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit -- -j8 -l8
+[0.097s] [35m[1mScanning dependencies of target pure_pursuit[0m
+[0.132s] [ 50%] Built target waypoint_visualizer
+[0.167s] [ 75%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[4.012s] [01m[K/home/bhajneet/sim_racing/ros2_ws/src/pure_pursuit/src/pure_pursuit.cpp:[m[K In function ‘[01m[Kdouble constrain(double, int, int)[m[K’:
+[4.013s] [01m[K/home/bhajneet/sim_racing/ros2_ws/src/pure_pursuit/src/pure_pursuit.cpp:353:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[4.013s]   353 |         input = input
+[4.013s]       |                      [01;31m[K^[m[K
+[4.013s]       |                      [32m[K;[m[K
+[4.013s]   354 |     [32m[K}[m[K
+[4.013s]       |     [32m[K~[m[K                 
+[6.635s] make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1
+[6.636s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/pure_pursuit.dir/all] Error 2
+[6.636s] make: *** [Makefile:141: all] Error 2
+[6.639s] Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/sim_racing/ros2_ws/install/stanley_avoidance:/home/bhajneet/sim_racing/ros2_ws/install/particle_filter:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --build /home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit -- -j8 -l8

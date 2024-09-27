@@ -1,0 +1,22 @@
+[0.697s] Invoking command in '/home/bhajneet/sim_racing/ros2_ws/src/stanley_avoidance': PYTHONPATH=/home/bhajneet/sim_racing/ros2_ws/build/stanley_avoidance/prefix_override:/home/bhajneet/sim_racing/ros2_ws/install/stanley_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/stanley_avoidance build --build-base /home/bhajneet/sim_racing/ros2_ws/build/stanley_avoidance/build install --record /home/bhajneet/sim_racing/ros2_ws/build/stanley_avoidance/install.log --install-scripts $base/lib/stanley_avoidance --single-version-externally-managed
+[0.883s] running egg_info
+[0.883s] writing ../../build/stanley_avoidance/stanley_avoidance.egg-info/PKG-INFO
+[0.884s] writing dependency_links to ../../build/stanley_avoidance/stanley_avoidance.egg-info/dependency_links.txt
+[0.884s] writing entry points to ../../build/stanley_avoidance/stanley_avoidance.egg-info/entry_points.txt
+[0.884s] writing requirements to ../../build/stanley_avoidance/stanley_avoidance.egg-info/requires.txt
+[0.884s] writing top-level names to ../../build/stanley_avoidance/stanley_avoidance.egg-info/top_level.txt
+[0.918s] reading manifest file '../../build/stanley_avoidance/stanley_avoidance.egg-info/SOURCES.txt'
+[0.919s] writing manifest file '../../build/stanley_avoidance/stanley_avoidance.egg-info/SOURCES.txt'
+[0.919s] running build
+[0.919s] running build_py
+[0.919s] running install
+[0.920s] running install_lib
+[0.921s] running install_data
+[0.921s] copying launch/sim_stanley_avoidance_launch.py -> /home/bhajneet/sim_racing/ros2_ws/install/stanley_avoidance/share/stanley_avoidance/launch
+[0.922s] running install_egg_info
+[0.924s] removing '/home/bhajneet/sim_racing/ros2_ws/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance-0.0.0-py3.8.egg-info' (and everything under it)
+[0.924s] Copying ../../build/stanley_avoidance/stanley_avoidance.egg-info to /home/bhajneet/sim_racing/ros2_ws/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance-0.0.0-py3.8.egg-info
+[0.926s] running install_scripts
+[0.948s] Installing stanley_avoidance script to /home/bhajneet/sim_racing/ros2_ws/install/stanley_avoidance/lib/stanley_avoidance
+[0.948s] writing list of installed files to '/home/bhajneet/sim_racing/ros2_ws/build/stanley_avoidance/install.log'
+[0.968s] Invoked command in '/home/bhajneet/sim_racing/ros2_ws/src/stanley_avoidance' returned '0': PYTHONPATH=/home/bhajneet/sim_racing/ros2_ws/build/stanley_avoidance/prefix_override:/home/bhajneet/sim_racing/ros2_ws/install/stanley_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/stanley_avoidance build --build-base /home/bhajneet/sim_racing/ros2_ws/build/stanley_avoidance/build install --record /home/bhajneet/sim_racing/ros2_ws/build/stanley_avoidance/install.log --install-scripts $base/lib/stanley_avoidance --single-version-externally-managed

@@ -1,0 +1,12 @@
+[0.031s] Invoking command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/sim_racing/ros2_ws/install/stanley_avoidance:/home/bhajneet/sim_racing/ros2_ws/install/particle_filter:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --build /home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit -- -j8 -l8
+[0.096s] [35m[1mScanning dependencies of target pure_pursuit[0m
+[0.127s] [ 50%] Built target waypoint_visualizer
+[0.159s] [ 75%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[3.600s] [01m[K/home/bhajneet/sim_racing/ros2_ws/src/pure_pursuit/src/pure_pursuit.cpp:[m[K In member function ‘[01m[Kvoid PurePursuit::publish_message(double)[m[K’:
+[3.600s] [01m[K/home/bhajneet/sim_racing/ros2_ws/src/pure_pursuit/src/pure_pursuit.cpp:343:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstrain[m[K’ was not declared in this scope
+[3.600s]   343 |     drive_msgObj.drive.steering_angle = [01;31m[Kconstrain[m[K(steering_angle, -steering_limit, steering_limit);
+[3.600s]       |                                         [01;31m[K^~~~~~~~~[m[K
+[6.067s] make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1
+[6.068s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/pure_pursuit.dir/all] Error 2
+[6.068s] make: *** [Makefile:141: all] Error 2
+[6.072s] Invoked command in '/home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bhajneet/sim_racing/ros2_ws/install/stanley_avoidance:/home/bhajneet/sim_racing/ros2_ws/install/particle_filter:/home/bhajneet/sim_racing/ros2_ws/install/autodrive_f1tenth:/opt/ros/foxy /usr/bin/cmake --build /home/bhajneet/sim_racing/ros2_ws/build/pure_pursuit -- -j8 -l8
