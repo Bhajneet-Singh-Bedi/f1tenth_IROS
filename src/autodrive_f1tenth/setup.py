@@ -24,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'autodrive_bridge_1 = autodrive_f1tenth.autodrive_bridge_1:main', # AutoDRIVE ROS 2 bridge
+            'autodrive_bridge = autodrive_f1tenth.autodrive_bridge:main', # AutoDRIVE ROS 2 bridge
             'teleop_keyboard = autodrive_f1tenth.teleop_keyboard:main', # Teleoperation with keyboard
         ],
     },
